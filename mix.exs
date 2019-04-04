@@ -21,8 +21,8 @@ defmodule Puz.MixProject do
 
       # Docs
       name: "Puz",
-      source_url: "https://github.com/revelrylabs/puz",
-      homepage_url: "https://github.com/revelrylabs/puz",
+      source_url: "https://github.com/bryanjos/puz",
+      homepage_url: "https://github.com/bryanjos/puz",
       # The main page in the docs
       docs: [main: "Puz", extras: ["README.md"]]
     ]
@@ -55,10 +55,10 @@ defmodule Puz.MixProject do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "LICENSE", "CHANGELOG.md"],
-      maintainers: ["Revelry Labs"],
+      maintainers: ["Bryan Joseph"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/revelrylabs/puz"
+        "GitHub" => "https://github.com/bryanjos/puz"
       },
       build_tools: ["mix"]
     ]
